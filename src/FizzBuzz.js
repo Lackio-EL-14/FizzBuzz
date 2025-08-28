@@ -1,6 +1,6 @@
 
 function ConvertirFizzBuzz(n){
-    return "1";
+    return n + "";
 }
 
 export default ConvertirFizzBuzz;
