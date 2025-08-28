@@ -11,4 +11,8 @@ function ConvertirFizzBuzz(n){
     }
 }
 
-export default ConvertirFizzBuzz;
+function GenerarCadenaFizzBuzz(n){
+    return "" + n;
+}
+
+export {ConvertirFizzBuzz, GenerarCadenaFizzBuzz};

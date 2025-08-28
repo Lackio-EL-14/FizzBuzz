@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6955e262191e21182f2916300d66796e5a86001b",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-08-28T02:56:24.000Z",
       "message": "feat:TTD ciclo 7 - Devuelve FizzBuzz si el numero es multiplo de 3 y 5",
-      "url": "https://github.com/Lackio-EL-14/FizzBuzz/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/FizzBuzz/commit/6955e262191e21182f2916300d66796e5a86001b"
     },
     "stats": {
       "total": 10,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-08-28T03:25:04.000Z",
+      "message": "feat:TTD ciclo 8 - Devuelve la cadena 1 al recibir el numero 1",
+      "url": "https://github.com/Lackio-EL-14/FizzBuzz/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 12,
+      "deletions": 2,
+      "date": "2025-08-28"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

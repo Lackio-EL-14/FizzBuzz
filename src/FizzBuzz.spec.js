@@ -1,4 +1,4 @@
-import ConvertirFizzBuzz from "./FizzBuzz";
+import {ConvertirFizzBuzz, GenerarCadenaFizzBuzz} from "./FizzBuzz";
 
 describe("ConvertirFizzBuzz", () => {
     it ("debería devolver el mismo numero '1' si no es multiplo de 3 y 5", () => {
@@ -21,6 +21,12 @@ describe("ConvertirFizzBuzz", () => {
     });
     it ("debería devolver 'FizzBuzz' si el numero es multiplo de 3 y 5", () => {
         expect(ConvertirFizzBuzz(15)).toEqual("FizzBuzz");
+    });
+    it ("debería devolver 'FizzBuzz' si el numero es multiplo de 3 y 5", () => {
+        expect(ConvertirFizzBuzz(90)).toEqual("FizzBuzz");
+    });
+    it ("deberia devolver la cadena del 1 sin convertir nada de fizz a buzz", () => {
+        expect(GenerarCadenaFizzBuzz(1)).toEqual("1");
     });
 });
 
