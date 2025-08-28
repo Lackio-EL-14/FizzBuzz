@@ -28,5 +28,11 @@ describe("ConvertirFizzBuzz", () => {
     it ("deberia devolver la cadena del 1 sin convertir nada de fizz a buzz", () => {
         expect(GenerarCadenaFizzBuzz(1)).toEqual("1");
     });
+    it ("deberia devolver la cadena del 1 al 5 con las conversiones de fizz y buzz, pero aun no aparecer el FizzBuzz", () => {
+        expect(GenerarCadenaFizzBuzz(5)).toEqual("1,2,Fizz,4,Buzz");
+    });
+    it ("deberia devolver la cadena del 1 al 15 con las conversiones de fizz y buzz, incluyendo el FizzBuzz", () => {
+       expect(GenerarCadenaFizzBuzz(15)).toEqual("1,2,Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz");
+    });
 });
 

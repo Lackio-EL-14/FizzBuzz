@@ -12,7 +12,15 @@ function ConvertirFizzBuzz(n){
 }
 
 function GenerarCadenaFizzBuzz(n){
-    return "" + n;
+    let resultado = "";
+    for (let i = 1; i <= (n || 1); i++) {
+        if (i > 1) {
+            resultado += ",";
+        }
+        resultado += ConvertirFizzBuzz(i);
+    }
+    return resultado;
 }
+
 
 export {ConvertirFizzBuzz, GenerarCadenaFizzBuzz};
