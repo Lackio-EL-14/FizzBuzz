@@ -1,15 +1,7 @@
-import sumar from "./sumador";
+import { ConvertirFizzBuzz, GenerarCadenaFizzBuzz } from "./FizzBuzz";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const input = prompt("Ingresa un número para FizzBuzz:");
+const numero = parseInt(input, 10);
+const resultado = GenerarCadenaFizzBuzz(numero);
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
-
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
-});
+document.body.innerHTML = `<h3>Resultado FizzBuzz:</h3><p>${resultado}</p>`;
