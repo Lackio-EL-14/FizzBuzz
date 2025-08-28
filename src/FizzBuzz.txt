@@ -1,0 +1,7 @@
+- ConvertirFizzBuzz(n):
+    - Si no es multiplo de 3 ni de 5
+    - Si es multiplo de 3
+    - Si es multiplo de 5 
+    - Si es multiplo de 3 y 5
+- GenerarCadenaFizzBuzz(n):
+    - Dado un numero por usr: generar toda la secuencia fizzBuzz. Ejm: 5 -> '1,2,Fizz,4,Buzz'      
